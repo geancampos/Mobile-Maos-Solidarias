@@ -1,0 +1,52 @@
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --font-mono: monospace;
+    --cor-de-fundo: #EBECEE;
+    --laranja: #FF6E15;
+    --rosa: #F8546A;
+}
+
+
+.cabecalho {
+    height: 8vh;
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__botao {
+    display: none;
+}
+
+.menu__hamburguer {
+    background-image: url("../img/barrinhas_de_menu.png");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.container__logo {
+    height: 60%
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.botao__entrar {
+    font-size: 13px;
+    margin-right: 1rem;
+    font-weight: 500;
+    background-color: var(--laranja);
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+
+}

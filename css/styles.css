@@ -1,0 +1,21 @@
+@import url("../css/reset.css");
+@import url("../css/header.css");
+@import url("main.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --font-mono: monospace;
+    --cor-de-fundo: #EBECEE;
+    --laranja: #FF6E15;
+    --rosa: #F8546A;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    padding: 0 1rem;
+}
+

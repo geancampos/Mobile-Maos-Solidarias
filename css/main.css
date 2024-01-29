@@ -1,0 +1,124 @@
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --font-mono: monospace;
+    --cor-de-fundo: #EBECEE;
+    --laranja: #FF6E15;
+    --rosa: #F8546A;
+    --azul: #5398BE;
+}
+
+main {
+    padding: 1rem;
+}
+
+
+.tela__home {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+
+.caixa__texto {
+    flex-direction: column;
+    width: 70%;
+}
+
+.mensagem__principal {
+    font-size: 23px;
+    font-weight: 700;
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
+.mensagem__secundaria {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+
+.botao__doar {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: var(--laranja);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.imagem__capa {
+    position: absolute;
+    z-index: -1;
+    opacity: 70%;
+    width: 50%;
+    left: 45%;
+}
+
+
+.lista__parceiros {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+    align-items: center;
+    padding: 3rem 0.5rem;
+}
+
+
+.parceiros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parceiros__imagens {
+    width: 5rem;
+}
+
+
+
+.titulo__maos__solidarias {
+    font-weight: 700;
+    color: var(--azul);
+    margin-bottom: 1rem;
+}
+
+.titulo__arrecadacoes {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.texto__arecadacoes {
+    font-size: 14px;
+    font-weight: 450;
+    text-align: justify;
+}
+
+.lista__doacoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.doacoes {
+    text-align: center;
+}
+
+.doacoes img {
+    width: 4rem;
+}
+
+.descricao__doacao {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.numero__doacao {
+    color: var(--rosa);
+    font-size: 15px;
+    font-weight: 600;
+}
